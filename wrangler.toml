@@ -1,0 +1,8 @@
+name = "mulham-fetna-blogg"
+compatibility_date = "2026-03-29"
+
+[build]
+command = "chmod +x build.sh && ./build.sh"
+
+[assets]
+bucket = "./public"
