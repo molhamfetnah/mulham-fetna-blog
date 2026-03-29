@@ -1,0 +1,77 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Mulham Fetna Blog"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  description = "Mulham Fetna Blog"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name = "Mulham Fetna"
+  # email = "youremail@example.com"
+  image = "https://avatars.githubusercontent.com/u/76975497?v=4"
+  imageQuality = 96
+  headline = "Mechatronics Engineer"
+  bio = "Renaissance Engineer"
+  links = [
+    # { email = "mailto:hello@your_domain.com" },
+#     { link = "https://link-to-some-website.com/" },
+#     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+#     { apple = "https://www.apple.com" },
+#     { blogger = "https://username.blogspot.com/" },
+#     { bluesky = "https://bsky.app/profile/username" },
+#     { codepen = "https://codepen.io/username" },
+#     { dev = "https://dev.to/username" },
+#     { discord = "https://discord.gg/invitecode" },
+#     { dribbble = "https://dribbble.com/username" },
+    { facebook = "https://www.facebook.com/mulham.robotics" },
+#     { flickr = "https://www.flickr.com/photos/username/" },
+#     { foursquare = "https://foursquare.com/username" },
+    { github = "https://github.com/molhamfetneh" },
+    { gitlab = "https://gitlab.com/molhamfetneh" },
+#     { google = "https://www.google.com/" },
+#     { hashnode = "https://username.hashnode.dev" },
+    { instagram = "https://instagram.com/mulham.robotics" },
+#     { itch-io = "https://username.itch.io" },
+#     { keybase = "https://keybase.io/username" },
+#     { keyoxide = "https://keyoxide.org/URI" },
+#     { kickstarter = "https://www.kickstarter.com/profile/username" },
+#     { lastfm = "https://lastfm.com/user/username" },
+    { linkedin = "https://linkedin.com/in/molham-fetnah" },
+#     { mastodon = "https://mastodon.instance/@username" },
+#     { matrix = "https://matrix.to/#/URI" },
+#     { medium = "https://medium.com/username" },
+#     { microsoft = "https://www.microsoft.com/" },
+#     { orcid = "https://orcid.org/userid" },
+#     { patreon = "https://www.patreon.com/username" },
+#     { pinterest = "https://pinterest.com/username" },
+#     { reddit = "https://reddit.com/user/username" },
+#     { researchgate = "https://www.researchgate.net/profile/username" },
+#     { signal = "https://signal.me/#eu/userid" },
+#     { slack = "https://workspace.url/team/userid" },
+#     { snapchat = "https://snapchat.com/add/username" },
+#     { soundcloud = "https://soundcloud.com/username" },
+#     { spotify = "https://open.spotify.com/user/userid" },
+#     { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+#     { steam = "https://steamcommunity.com/profiles/userid" },
+    { telegram = "https://t.me/Mulham_Fetna_official" },
+#     { threads = "https://www.threads.net/@username" },
+#     { tiktok = "https://tiktok.com/@username" },
+#     { tumblr = "https://username.tumblr.com" },
+#     { twitch = "https://twitch.tv/username" },
+#     { twitter = "https://twitter.com/username" },
+#     { x-twitter = "https://twitter.com/username" },
+    { whatsapp = "https://chat.whatsapp.com/EmFS1vgi9oq4EUWn2U6WIl" },
+#     { youtube = "https://youtube.com/username" },
+#     { ko-fi = "https://ko-fi.com/username" },
+#     { codeberg = "https://codeberg.org/username"},
+#     { printables = "https://www.printables.com/@username"},
+  ]
