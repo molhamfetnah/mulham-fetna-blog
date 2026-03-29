@@ -1,41 +1,36 @@
 #!/usr/bin/env bash
-
-# Build script for Hugo on Cloudflare Workers/Pages
 set -euo pipefail
 
 main() {
     HUGO_VERSION="0.158.0"
     export TZ=UTC
 
-    echo "🚀 Starting Hugo build process..."
+    echo "🚀 Starting Hugo build..."
 
-    # Cleanup previous failed downloads
-    rm -f hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz hugo LICENSE README.md
+    # AGGRESSIVE CLEANUP - Remove ALL possible stale files FIRST
+    rm -f hugo* LICENSE README.md *.tar.gz || true
+    rm -rf public/ resources/ || true
 
-    # Install Hugo
-    echo "📦 Installing Hugo v${HUGO_VERSION}..."
-    curl -LJO "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
-    tar -xf "hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
-    mkdir -p /opt/buildhome/
-    cp hugo /opt/buildhome/
-    rm -f LICENSE README.md "hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz" hugo
+    echo "📦 Downloading Hugo v${HUGO_VERSION}..."
+    curl -L --fail -o hugo.tar.gz "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+    
+    echo "📦 Extracting..."
+    tar -xzf hugo.tar.gz
+    mkdir -p bin/
+    mv hugo bin/
+    rm -f hugo.tar.gz LICENSE README.md
 
-    # Set PATH
-    export PATH="/opt/buildhome:$PATH"
+    export PATH="$(pwd)/bin:$PATH"
+    
+    echo "🎨 Themes..."
+    git submodule update --init --recursive || true
 
-    # Themes
-    echo "🎨 Setting up themes..."
-    git submodule update --init --recursive
-    git config core.quotepath false
-
-    # Verify
-    echo "✅ Hugo: $(hugo version)"
-
-    # Build
-    echo "🔨 Building site..."
+    echo "✅ $(hugo version)"
+    echo "🔨 Building..."
     hugo --gc --minify
 
-    echo "✨ Build complete! Public dir ready."
+    echo "✨ DONE - public/ ready!"
+    ls -la public/
 }
 
 main "$@"
