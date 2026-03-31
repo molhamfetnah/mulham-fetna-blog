@@ -17,12 +17,12 @@ title = "Mulham Fetna Blog"
 [params.author]
   name = "Mulham Fetna"
   # email = "youremail@example.com"
-  image = "https://avatars.githubusercontent.com/u/76975497?v=4"
+  image = "/img/mulham_professional_photo.jpg"
   imageQuality = 96
   headline = "Mechatronics Engineer"
   bio = "Renaissance Engineer"
   links = [
-    # { email = "mailto:hello@your_domain.com" },
+    # { email = "mailto:mail@mail.com" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
