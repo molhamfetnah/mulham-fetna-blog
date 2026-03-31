@@ -1,6 +1,13 @@
 # -- Markup --
 # These settings are required for the theme to function.
 
+[markup]
+  [markup.mermaid]
+    pango = false
+    securityLevel = "restricted" # valid options: none, lax, strict, restricted (default)
+    [markup.mermaid.gotmpl]
+      sequenceLeftHandText = false
+      
 [goldmark]
   [goldmark.parser]
     wrapStandAloneImageWithinParagraph = false
