@@ -319,11 +319,6 @@ Post-recovery verification steps:
 This guide consolidates bootloader recovery, permanent mounting configuration, and cross-platform filesystem troubleshooting into a single reference for maintaining complex dual-boot environments. All procedures assume UEFI/GPT partitioning; adapt device identifiers (`sda`, `nvme0n1`, etc.) to your specific hardware topology.
 
 ---
----
-
-Here is the comprehensive FAQ section and official documentation reference supplement:
-
----
 
 ## 8. Frequently Asked Questions (FAQ)
 
