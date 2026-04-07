@@ -11,7 +11,12 @@ title = "Mulham Fetna Blog"
   dateFormat = "2 January 2006"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  description = "Mulham Fetna Blog"
+  description = """Mulham Fetna Blog
+  Mechatronics Engineer | Renaissance Engineer | MLops Developer | STEM International Instructor | Robotics Enthusiast | 
+  Sharing insights and knowledge on robotics, engineering, and technology.
+  Explore articles, projects, and tutorials on the latest advancements in robotics and engineering.
+  Join me on this journey of discovery and innovation in the world of robotics and engineering."""
+  
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]

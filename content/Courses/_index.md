@@ -1,16 +1,11 @@
 ---
-title: My Courses
-summary: 
-
+title: "Educational Programs Portfolio"
 ---
-# My Courses
 
 
-## My Courses
+## I have managed educational programs with various prestigious institutions...
+{{< org-gallery type="governmental" title="Governmental Partners" >}}
 
-## I managed educational programs with
+{{< org-gallery type="non-governmental" title="NGO Collaborations" >}}
 
-
-
-
-
+{{< org-gallery type="all" title="All Partner Organizations" >}}

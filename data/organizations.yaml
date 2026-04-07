@@ -1,0 +1,42 @@
+# Organization Data File
+# Place logos in: assets/org-images/
+# Reference logos by filename only (e.g., "logo.png", not "images/logo.png")
+
+governmental:
+  - name: "الجامعة الافتراضية السورية - Syrian Virtual University"
+    logo: "svu.jpg"
+    website: "https://www.facebook.com/svuonline.org"
+    description: "Programming Trainer for Kids and Adolescents Programming Marathon - One of Only 20 Trainers Nationally"
+    location: "Syria, Online"
+    
+  - name: "هيئة التميز والإبداع - Distinction and Creativity Agency"
+    logo: "dca.png"
+    website: "https://www.facebook.com/DCA.SYRIA"
+    description: "Programming Trainer for Kids and Adolescents Programming Marathon - One of Only 20 Trainers Nationally"
+    location: "Syria, Online"
+
+  - name: "Kids and Adolescents Programming Marathon - KPM - الماراثون البرمجي للصغار واليافعين"
+    logo: "kpm.jpg"
+    website: "https://www.facebook.com/KPM.SVU"
+    description: "Programming Trainer for Kids and Adolescents Programming Marathon - One of Only 20 Trainers Nationally"
+    location: "Syria, Online"
+
+
+non_governmental:
+  - name: "Neurobotics Academy"
+    logo: "herwill.jpg"
+    website: "https://neurobotics.io"
+    description: "Advanced AI & Robotics education and certification"
+    location: "Remote"
+    
+  - name: "Boundless Education"
+    logo: "herwill.jpg"
+    website: "https://boundless.edu"
+    description: "International scholarship mentorship and academic consulting"
+    location: "International"
+    
+  - name: "STEM Labs"
+    logo: "herwill.jpg"
+    website: "https://stemlabs.org"
+    description: "Hands-on science and engineering workshops for youth"
+    location: "Multiple Locations"
