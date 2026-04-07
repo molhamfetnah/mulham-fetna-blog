@@ -2,8 +2,8 @@
 title: "Scholarships Mentorship"
 date: 2026-03-31
 ---
-<div dir="rtl" style="direction:rtl;text-align:right;border:1px solid #ddd;padding:20px;">
-
+<!-- <div dir="rtl" style="direction:rtl;text-align:right;border:1px solid #ddd;padding:20px;"> -->
+{{% rtl %}}
 ## طبيعة الجلسة والإشراف
  * جلسة إرشادية مخصصة إلك: بشتغل معك فيها بشكل مباشر.
  * الإشراف هو أكتر من مساعدة تقديم على منحة: هو ترتيب لأفكارك وحياتك وصياغة دليل للسنتين الجايات من حياتك.
@@ -32,3 +32,5 @@ date: 2026-03-31
 2. حجز الجلسات الفردية:
  * بإمكانك إنك تحجزي كل جلسة بجلستها.
  * كلفة الجلسة: 10$ عن كل جلسة.
+
+{{% /rtl %}}

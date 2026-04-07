@@ -25,16 +25,12 @@ All content is written in Markdown, and outputs (PDF, HTML, slides, static site)
 All content is written in Markdown:
 
 ```markdown
-# Lecture 1 – Introduction to Robotics
-
-## Math
-
-Inline math $F = ma$ and block math:
-
 $$
 \ddot{x} + 2\zeta\omega_n\dot{x} + \omega_n^2 x = 0
 $$
 ```
+{{<katex>}}
+\(\ddot{x} + 2\zeta\omega_n\dot{x} + \omega_n^2 x = 0\)
 
 Diagrams:
 
@@ -42,6 +38,10 @@ Diagrams:
 graph LR
   A[FIXED] --> B[Mermaid Works]
 ```
+{{<mermaid>}}
+graph LR
+  A[FIXED] --> B[Mermaid Works]
+{{</mermaid>}}
 
 
 Slides (Marp):
