@@ -157,5 +157,3 @@ Plus CI/CD (e.g., GitHub Actions) that:
 - **Many outputs**: HTML, PDF, DOCX, slides, static site.  
 - **Git‑first**: all content is in version‑controlled Markdown.  
 - **Tool‑agnostic style**: you can swap Hugo ↔ others later; Markdown stays.
-
-You can copy this text as-is into a `docs/markdown-workflow.md` or a blog post and share it with other developers.
