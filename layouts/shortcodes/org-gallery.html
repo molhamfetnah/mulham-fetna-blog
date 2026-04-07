@@ -1,105 +1,84 @@
-{{/* 
-  Organization Gallery - Aspect Ratio Preserved
-  Usage: {{< org-gallery type="governmental" title="I managed educational programs with" >}}
-*/}}
-
 {{ $type := .Get "type" | default "all" }}
 {{ $title := .Get "title" | default "Partner Organizations" }}
 {{ $orgs := slice }}
 
-{{/* Data Selection */}}
+{{ $govOrgs := site.Data.organizations.governmental }}
+{{ $ngoOrgs := site.Data.organizations.non_governmental }}
+
 {{ if eq $type "all" }}
-  {{ range hugo.Data.organizations.governmental }}
+  {{ range $govOrgs }}
     {{ $orgs = $orgs | append . }}
   {{ end }}
-  {{ range hugo.Data.organizations.non_governmental }}
+  {{ range $ngoOrgs }}
     {{ $orgs = $orgs | append . }}
   {{ end }}
 {{ else if eq $type "governmental" }}
-  {{ $orgs = hugo.Data.organizations.governmental }}
+  {{ $orgs = $govOrgs }}
 {{ else if eq $type "non-governmental" }}
-  {{ $orgs = hugo.Data.organizations.non_governmental }}
+  {{ $orgs = $ngoOrgs }}
 {{ end }}
 
 {{ if $orgs }}
-
-<section class="org-gallery-section mb-12" aria-labelledby="org-heading-{{ $type | urlize }}">
+<section class="mb-12">
   {{ with $title }}
-    <h4 id="org-heading-{{ $type | urlize }}" class="text-2xl font-bold mb-6 text-neutral-800 dark:text-neutral-200">
-      {{ . }}
-    </h4>
+    <h2 class="text-2xl font-bold mb-6 text-neutral-800 dark:text-neutral-200">{{ . }}</h2>
   {{ end }}
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" role="list">
     {{ range $orgs }}
-      <article class="org-card group relative bg-neutral-100 dark:bg-neutral-800 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border border-neutral-200 dark:border-neutral-700 flex flex-col" role="listitem">
+    <article class="group bg-neutral-100 dark:bg-neutral-800 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border border-neutral-200 dark:border-neutral-700 flex flex-col" role="listitem">
+      
+      <a href="{{ .website }}" target="_blank" rel="noopener noreferrer" 
+         class="block p-6 focus:outline-none focus:ring-2 focus:ring-primary-500 rounded-lg flex flex-col h-full"
+         aria-label="Visit {{ .name }} website">
         
-        <a href="{{ .website }}" target="_blank" rel="noopener noreferrer" 
-           class="block p-6 focus:outline-none focus:ring-2 focus:ring-primary-500 rounded-lg flex flex-col h-full"
-           aria-label="Visit {{ .name }} website">
-          
-          {{/* Image container - Removed fixed aspect ratio, using natural height */}}
-          <div class="flex items-center justify-center mb-4 bg-white dark:bg-neutral-900 rounded-md p-4 min-h-[120px]">
-            {{ if .logo }}
-              {{ $logoFilename := .logo }}
-              {{ $logoFilename = path.Base $logoFilename }}
-              {{ $logoPath := printf "org-images/%s" $logoFilename }}
-              {{ $img := resources.Get $logoPath }}
-              
-              {{ if $img }}
-                {{/* 
-                  OPTION 1: Fit within 400x300 bounds while maintaining aspect ratio (recommended)
-                  Result: Image fits inside box, no distortion, transparent/letterboxed if needed
-                */}}
-                {{ $processed := $img.Fit "400x300 webp q80" }}
-                
-                {{/* 
-                  OPTION 2: Resize by width only (uncapped height)
-                  Uncomment below and comment out Fit above if you prefer:
-                  {{ $processed := $img.Resize "400x webp q80" }}
-                */}}
-                
-                <img src="{{ $processed.RelPermalink }}" 
-                     alt="{{ .name }} logo" 
-                     class="max-w-full max-h-[200px] w-auto h-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
-                     loading="lazy"
-                     width="{{ $processed.Width }}"
-                     height="{{ $processed.Height }}">
-              {{ else }}
-                <div class="w-20 h-20 rounded-full bg-primary-100 dark:bg-primary-900 flex items-center justify-center text-2xl font-bold text-primary-600 dark:text-primary-400">
-                  {{ substr .name 0 1 }}
-                </div>
-              {{ end }}
+        <div class="flex items-center justify-center mb-4 bg-white dark:bg-neutral-900 rounded-md p-4 min-h-[120px]">
+          {{ if .logo }}
+            {{ $logoPath := printf "org-images/%s" (path.Base .logo) }}
+            {{ $img := resources.Get $logoPath }}
+            
+            {{ if $img }}
+              {{ $processed := $img.Fit "400x300 webp q80" }}
+              <img src="{{ $processed.RelPermalink }}" 
+                   alt="{{ .name }} logo" 
+                   class="max-w-full max-h-[200px] w-auto h-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
+                   loading="lazy"
+                   width="{{ $processed.Width }}"
+                   height="{{ $processed.Height }}">
             {{ else }}
-              <div class="w-20 h-20 rounded-full bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center text-2xl font-bold text-white shadow-md">
+              <div class="w-20 h-20 rounded-full bg-primary-100 dark:bg-primary-900 flex items-center justify-center text-2xl font-bold text-primary-600 dark:text-primary-400">
                 {{ substr .name 0 1 }}
               </div>
             {{ end }}
-          </div>
+          {{ else }}
+            <div class="w-20 h-20 rounded-full bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center text-2xl font-bold text-white shadow-md">
+              {{ substr .name 0 1 }}
+            </div>
+          {{ end }}
+        </div>
 
-          <div class="space-y-2 flex-grow">
-            <h3 class="text-lg font-semibold text-neutral-900 dark:text-neutral-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
-              {{ .name }}
-            </h3>
-            
-            {{ with .description }}
-              <p class="text-sm text-neutral-600 dark:text-neutral-400">{{ . }}</p>
-            {{ end }}
-            
-            {{ with .location }}
-              <div class="flex items-center text-xs text-neutral-500 dark:text-neutral-500 mt-3">
-                {{ partial "icon.html" "map-pin" }}
-                <span class="ml-1.5">{{ . }}</span>
-              </div>
-            {{ end }}
-          </div>
-        </a>
-      </article>
+        <div class="space-y-2 flex-grow">
+          <h3 class="text-lg font-semibold text-neutral-900 dark:text-neutral-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+            {{ .name }}
+          </h3>
+          
+          {{ with .description }}
+            <p class="text-sm text-neutral-600 dark:text-neutral-400">{{ . }}</p>
+          {{ end }}
+          
+          {{ with .location }}
+            <div class="flex items-center text-xs text-neutral-500 dark:text-neutral-500 mt-3">
+              {{ partial "icon.html" "map-pin" }}
+              <span class="ml-1.5">{{ . }}</span>
+            </div>
+          {{ end }}
+        </div>
+      </a>
+    </article>
     {{ end }}
   </div>
 </section>
 
-{{/* Structured Data for SEO */}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -120,5 +99,4 @@
   ]
 }
 </script>
-
 {{ end }}
