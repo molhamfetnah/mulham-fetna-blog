@@ -1,5 +1,6 @@
 ---
 title: Python from Zero to Data Engineering Mastery
-summary: 
 
 ---
+
+## Python from Zero to Data Engineering Mastery

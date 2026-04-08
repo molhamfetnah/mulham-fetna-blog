@@ -9,8 +9,8 @@ title = "Mulham Fetna Blog"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
-  # secondaryLogo = "img/secondary-logo.png"
+  logo = "logo/favikon.svg"
+  secondaryLogo = "logo/favikon.svg"
   description = """Mulham Fetna Blog
   Mechatronics Engineer | Renaissance Engineer | MLops Developer | STEM International Instructor | Robotics Enthusiast | 
   Sharing insights and knowledge on robotics, engineering, and technology.

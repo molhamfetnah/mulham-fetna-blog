@@ -4,3 +4,4 @@ summary:
 ---
 
 
+MLops - from Zero to Full Stack AI Engineer
