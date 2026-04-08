@@ -1,13 +1,13 @@
 > https://share.google/aimode/EHKLlksvJSpzMQmGa
 
-To get this specific code block working in your Blowfish theme, follow these steps. We will use a shortcode because Hugo usually blocks <script> tags inside Markdown for security.
+To get this specific code block working in your Blowfish theme, follow these steps. We will use a shortcode because Hugo usually blocks `<script>` tags inside Markdown for security.
 ## Step 1: Create the Shortcode File
 Navigate to your Hugo project folder and create a new file for the embed code.
 
    1. Go to layouts/shortcodes/ (create the folder if it doesn't exist).
    2. Create a file named cal-embed.html.
    3. Paste your exact code block into that file:
-
+```html
 <!-- layouts/shortcodes/cal-embed.html -->
 <div style="width:100%;height:100%;overflow:scroll" id="my-cal-inline-30min"></div>
 <script type="text/javascript">
@@ -23,27 +23,27 @@ Navigate to your Hugo project folder and create a new file for the embed code.
 
   Cal.ns["30min"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
 </script>
-
+```
 ## Step 2: Add the Shortcode to your index.md
 Now, tell Hugo where you want the calendar to appear on your homepage.
 
    1. Open content/_index.md.
    2. Insert the shortcode name (the filename you created in Step 1) using the double curly brace syntax:
-
+```
 ---title: "Welcome"
 ---
 Check out my blog posts below, or schedule a meeting with me:
 
 {{< cal-embed >}}
-
+```
 ## Step 3: Handle the "Height" issue
 Cal.com embeds sometimes appear "squashed" because they rely on the parent container's height. If the calendar looks too small:
 
    1. Open your layouts/shortcodes/cal-embed.html again.
    2. Change the first line to include a specific minimum height (e.g., min-height: 600px):
-   
+   ```html
    <div style="width:100%; min-height:700px; overflow:scroll" id="my-cal-inline-30min"></div>
-   
+   ```
    
 ## Step 4: Verify Blowfish Configuration
 The Blowfish theme often uses a "profile" or "hero" layout for the homepage.
