@@ -5,4 +5,8 @@
   {{ else }}
     {{ partial "home/profile.html" . }}
   {{ end }}
+  <section class="max-w-prose pt-8 print:hidden">
+    {{ partial "author.html" . }}
+    {{ partial "sharing-links.html" . }}
+  </section>
 {{ end }}
