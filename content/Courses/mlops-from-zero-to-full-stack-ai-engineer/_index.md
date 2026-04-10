@@ -8,6 +8,13 @@ summary: 27-session AI/ML journey from chatbot APIs and local models to Arabic N
 **Course Duration and Scope:**  
 This course is designed to be delivered over **27 sessions**, each lasting approximately **1 to 1.5 hours**. It offers a comprehensive, step-by-step journey from the fundamentals of AI chatbots to advanced machine learning and deep learning techniques. The curriculum spans five levels covering practical use of popular AI chatbots and APIs, local AI model deployment with secure networking, sophisticated Arabic NLP combined with web scraping, multimodal image processing and emotion recognition, and foundational deep learning architectures and algorithms. Each session integrates theory with practical examples and assignments, culminating in projects that synthesize learned skills for real-world AI applications.
 
+### Related pages to execute this track
+
+1. [Python Data Engineering & MLOps roadmap](/roadmaps/python-data-to-mlops-roadmap/) for full phase-by-phase progression.
+2. [Courses hub](/courses/) for complementary tracks.
+3. [Workshops & Camps](/workshops-camps/) for practical live sessions.
+4. [Mentorship Services](/services/) for one-to-one implementation and project strategy.
+
 ***
 
 ## License and Disclaimer
@@ -291,4 +298,3 @@ Each session: 20-min partial concepts (e.g., API auth code), 30-min integrated e
 - Review core concepts from all levels  
 - Present graduation project guidelines: e.g., Arabic text and image sentiment app with deployment  
 - Q&A and next steps
-

@@ -13,6 +13,13 @@ Transform beginners into **production-ready Python developers** through 24 inten
 **Level**: Beginner → Professional Data Engineer  
 **Target**: Job-ready portfolio + interview skills
 
+### Related pages to maximize outcomes
+
+1. [Python Data Engineering & MLOps roadmap](/roadmaps/python-data-to-mlops-roadmap/) for full sequencing.
+2. [Courses hub](/courses/) for cross-track planning.
+3. [Workshops & Camps](/workshops-camps/) for live practice and announcements.
+4. [Mentorship Services](/services/) for personalized implementation support.
+
 ## 📋 **Complete Session Curriculum**
 
 ### **Phase 1: Python Foundations (Sessions 1-6)**

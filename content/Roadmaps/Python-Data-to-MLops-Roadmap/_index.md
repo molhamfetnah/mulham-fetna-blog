@@ -14,6 +14,11 @@ This roadmap is tightly aligned with:
 
 Use this roadmap as your sequencing engine and use both course pages as implementation blueprints.
 
+To execute this roadmap with live guidance and practical announcements, combine it with:
+
+1. [Workshops & Camps](/workshops-camps/)
+2. [Mentorship Services](/services/)
+
 ***
 
 ## Quick Navigation

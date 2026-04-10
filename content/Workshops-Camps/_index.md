@@ -31,3 +31,9 @@ Every workshop connects directly to the [Roadmaps](/roadmaps/) and [Courses](/co
 Join the next workshop and let’s turn curiosity into capability.
 
 ***
+
+### Continue beyond workshops
+
+1. Follow the full learning tracks in [Courses](/courses/).
+2. Plan long-term progression in [Roadmaps](/roadmaps/).
+3. Get one-to-one help through [Mentorship Services](/services/).

@@ -14,6 +14,16 @@ Data science and AI have been the most powerful tools of all time—for the past
 
 - Don't forget to [follow my workshops & camps](/workshops-camps/) for hands-on mastery.
 
+### Build your full learning path
+
+Use these companion pages while studying:
+
+1. [Roadmaps hub](/roadmaps/) for full progression plans.
+2. [Python Data Engineering & MLOps roadmap](/roadmaps/python-data-to-mlops-roadmap/) for data/AI sequencing.
+3. [Mechatronics Engineering roadmap](/roadmaps/mechatronics-roadmap/) for robotics/embedded progression.
+4. [Workshops & Camps](/workshops-camps/) for upcoming live sessions and announcements.
+5. [Mentorship Services](/services/) for personalized academic/professional guidance.
+
 
 ### I have managed educational programs with various prestigious institutions:
 
