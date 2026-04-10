@@ -59,6 +59,13 @@
   weight = 3
 
 [[footer]]
-  name = "Privacy"
+  name = "Privacy Policy"
   pageRef = "privacy"
+  url = "/privacy/"
   weight = 4
+
+[[footer]]
+  name = "Terms of Service"
+  pageRef = "terms-of-service"
+  url = "/terms-of-service/"
+  weight = 5
