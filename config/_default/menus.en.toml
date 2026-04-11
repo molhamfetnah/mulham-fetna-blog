@@ -69,3 +69,9 @@
   pageRef = "terms-of-service"
   url = "/terms-of-service/"
   weight = 5
+
+[[footer]]
+  name = "Authenticity & Editorial Policy"
+  pageRef = "authenticity-editorial-policy"
+  url = "/authenticity-editorial-policy/"
+  weight = 6

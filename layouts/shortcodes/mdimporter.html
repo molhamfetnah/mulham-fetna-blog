@@ -1,0 +1,33 @@
+{{ $url := .Get "url" }}
+{{ with resources.GetRemote (urls.Parse $url) }}
+  {{ $content := .Content }}
+
+  {{/* Auto-rewrite relative links/images when importing from raw.githubusercontent.com */}}
+  {{ $ghMatch := findRESubmatch `^https://raw\.githubusercontent\.com/([^/]+)/([^/]+)/([^/]+)/(.*)$` $url }}
+  {{ if gt (len $ghMatch) 0 }}
+    {{ $parts := index $ghMatch 0 }}
+    {{ $owner := index $parts 1 }}
+    {{ $repo := index $parts 2 }}
+    {{ $ref := index $parts 3 }}
+    {{ $filePath := index $parts 4 }}
+    {{ $dir := path.Dir $filePath }}
+    {{ $dirPrefix := cond (eq $dir ".") "" (printf "%s/" $dir) }}
+    {{ $blobBase := printf "https://github.com/%s/%s/blob/%s/%s" $owner $repo $ref $dirPrefix }}
+    {{ $rawBase := printf "https://raw.githubusercontent.com/%s/%s/%s/%s" $owner $repo $ref $dirPrefix }}
+
+    {{/* Rewrite Markdown links (and image links initially) */}}
+    {{ $content = replaceRE `\]\(((\./|\.\./)[^)]+|[^/#:][^)#:]*)\)` (printf "](%s$1)" $blobBase) $content }}
+    {{/* Convert Markdown image links to raw URLs so images render on-site */}}
+    {{ $content = replaceRE `(?i)!\[([^\]]*)\]\(https://github\.com/([^/]+)/([^/]+)/blob/([^/]+)/([^)]+\.(png|jpe?g|gif|svg|webp|avif|bmp|ico))\)` `![$1](https://raw.githubusercontent.com/$2/$3/$4/$5)` $content }}
+
+    {{/* Rewrite HTML links/images if README uses inline HTML */}}
+    {{ $content = replaceRE `(?i)(<a[^>]+href=['"])((\./|\.\./)[^'"]+|[^/#:][^'"]*)(['"])` (printf `${1}%s$2${4}` $blobBase) $content }}
+    {{ $content = replaceRE `(?i)(<img[^>]+src=['"])((\./|\.\./)[^'"]+|[^/#:][^'"]*)(['"])` (printf `${1}%s$2${4}` $rawBase) $content }}
+    {{/* Rewrite reference-style link definitions */}}
+    {{ $content = replaceRE `(?m)^(\[[^\]]+\]:\s*)((\./|\.\./)\S+|[^/#:\s]\S*)` (printf `${1}%s$2` $blobBase) $content }}
+  {{ end }}
+
+  {{ $content | markdownify }}
+{{ else }}
+  {{ warnf "mdimporter shortcode: unable to fetch %q: %s" $url .Position }}
+{{ end }}
