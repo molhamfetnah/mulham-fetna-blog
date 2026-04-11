@@ -41,6 +41,20 @@ slug: "technical-consultation-session"
 - يسمح بإعادة جدولة مرة واحدة عند إشعار مسبق **24 ساعة**.
 - لا يوجد استرداد بعد تنفيذ الجلسة.
 
+### خطوات الحجز (مهم)
+1. حوّلي الرسوم عبر ShamCash أولًا.
+2. احجزي الموعد عبر Cal.
+3. أي حجز بدون تأكيد الدفع يتم إلغاؤه تلقائيًا.
+
+### معلومات الدفع عبر ShamCash
+- **Payment Identifier:** `d9baec7d91b344eb9c2d04363dd84664`
+- للموبايل (مسح مباشر):
+
+![ShamCash Payment QR](shamcash-payment-recieve/shamcash-payment-recieve.png)
+
+### رابط الحجز المباشر
+**[Book your 1-hour meeting](https://cal.com/mulham-fetna/1-hour-meeting)**
+
 ## ملاحظات قبل الحجز
 
 لتكون الجلسة فعالة، أرسل قبل الموعد:
@@ -55,8 +69,15 @@ slug: "technical-consultation-session"
 **[mulham.fetna.blog@gmail.com](mailto:mulham.fetna.blog@gmail.com)**
 {{% /rtl %}}
 
+## Booking Widget
+{{< cal-embed >}}
+
 ---
 
 ## English Snapshot
 
 One-to-one technical consultation on your selected topic, limited to real expertise areas and focused on actionable outcomes.
+
+### Booking & Payment
+- Pay first via ShamCash (Identifier: `d9baec7d91b344eb9c2d04363dd84664`).
+- Direct booking link: [https://cal.com/mulham-fetna/1-hour-meeting](https://cal.com/mulham-fetna/1-hour-meeting)

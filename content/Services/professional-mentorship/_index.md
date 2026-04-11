@@ -48,6 +48,20 @@ description: "Professional mentorship to build a clear career identity, position
 - يسمح بإعادة جدولة مرة واحدة عند إشعار مسبق **24 ساعة**.
 - لا يوجد استرداد بعد تنفيذ الجلسة.
 
+### خطوات الحجز (مهم)
+1. حوّلي الرسوم عبر ShamCash أولًا.
+2. احجزي الموعد عبر Cal.
+3. أي حجز بدون تأكيد الدفع يتم إلغاؤه تلقائيًا.
+
+### معلومات الدفع عبر ShamCash
+- **Payment Identifier:** `d9baec7d91b344eb9c2d04363dd84664`
+- للموبايل (مسح مباشر):
+
+![ShamCash Payment QR](shamcash-payment-recieve/shamcash-payment-recieve.png)
+
+### رابط الحجز المباشر
+**[Book your 1-hour meeting](https://cal.com/mulham-fetna/1-hour-meeting)**
+
 ## النتيجة المتوقعة
 
 الهدف ليس فقط الحصول على فرصة قصيرة المدى، بل بناء هوية مهنية واضحة ومستدامة يمكن أن تنمو معها فرصك على المدى الطويل.
@@ -60,8 +74,15 @@ description: "Professional mentorship to build a clear career identity, position
 
 {{%/rtl%}}
 
+## Booking Widget
+{{< cal-embed >}}
+
 ---
 
 ## English Snapshot
 
 Professional mentorship for career positioning and personal brand clarity, including a practical execution roadmap and optional ongoing follow-up.
+
+### Booking & Payment
+- Pay first via ShamCash (Identifier: `d9baec7d91b344eb9c2d04363dd84664`).
+- Direct booking link: [https://cal.com/mulham-fetna/1-hour-meeting](https://cal.com/mulham-fetna/1-hour-meeting)

@@ -52,6 +52,20 @@ description: "UWC and Bachelor scholarships mentorship: positioning, application
 - يسمح بإعادة جدولة مرة واحدة عند إشعار مسبق **24 ساعة**.
 - لا يوجد استرداد بعد تنفيذ الجلسة.
 
+### خطوات الحجز (مهم)
+1. حوّلي الرسوم عبر ShamCash أولًا.
+2. احجزي الموعد عبر Cal.
+3. أي حجز بدون تأكيد الدفع يتم إلغاؤه تلقائيًا.
+
+### معلومات الدفع عبر ShamCash
+- **Payment Identifier:** `d9baec7d91b344eb9c2d04363dd84664`
+- للموبايل (مسح مباشر):
+
+![ShamCash Payment QR](shamcash-payment-recieve/shamcash-payment-recieve.png)
+
+### رابط الحجز المباشر
+**[Book your 1-hour meeting](https://cal.com/mulham-fetna/1-hour-meeting)**
+
 ## ملاحظات مهمة
 
 - أنا لا أقدم بدلًا عنك؛ أنا أدربك لتقديم نفسك بأفضل صورة.
@@ -64,8 +78,15 @@ description: "UWC and Bachelor scholarships mentorship: positioning, application
 
 {{% /rtl %}}
 
+## Booking Widget
+{{< cal-embed >}}
+
 ---
 
 ## English Snapshot
 
 Scholarships mentorship focused on UWC/Bachelor applications: profile positioning, application strategy, essay review, and submission readiness with clear milestones.
+
+### Booking & Payment
+- Pay first via ShamCash (Identifier: `d9baec7d91b344eb9c2d04363dd84664`).
+- Direct booking link: [https://cal.com/mulham-fetna/1-hour-meeting](https://cal.com/mulham-fetna/1-hour-meeting)
