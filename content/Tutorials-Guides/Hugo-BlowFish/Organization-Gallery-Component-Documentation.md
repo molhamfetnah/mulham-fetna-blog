@@ -1,3 +1,8 @@
+---
+showInRecent: false
+---
+
+
 # Organization Gallery Component Documentation
 
 ## 📋 Table of Contents

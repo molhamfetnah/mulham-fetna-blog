@@ -1,3 +1,7 @@
+---
+showInRecent: false
+---
+
 # BLow fish parmas guide
 I'll go through every single config in your `params.toml` in order, including all commented ones. Each explained with what it does, what happens when enabled vs disabled.
 

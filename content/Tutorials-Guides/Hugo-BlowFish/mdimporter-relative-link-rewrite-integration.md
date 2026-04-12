@@ -1,3 +1,8 @@
+---
+showInRecent: false
+---
+
+
 # mdimporter Relative-Link Rewrite Integration (Deep Technical Documentation)
 
 This document captures the full implementation details for fixing imported README relative links so they resolve to the source repository (not the blog URL), with trackable git-style before/after blocks.

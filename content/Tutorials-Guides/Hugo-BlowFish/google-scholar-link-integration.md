@@ -1,3 +1,9 @@
+---
+
+showInRecent: false
+---
+
+
 # Google Scholar Link Integration Reference
 
 This document records every change made to integrate a Google Scholar profile link into the existing Blowfish author links system, matching the same structure used by the built-in placeholders.

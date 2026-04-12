@@ -1,3 +1,8 @@
+---
+showInRecent: false
+---
+
+
 # guide for all files other than params -> for params guide check its own guide
 
 I'll go through each config file in sequence, explaining every setting with what it does, what enabling/disabling changes, and specific recommendations for your setup.

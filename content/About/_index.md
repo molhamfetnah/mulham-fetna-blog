@@ -59,7 +59,7 @@ image: "/img/mulham_professional_photo.jpg"
   * **Award Recognition:** Received the **"Ramadan Initiatives" award** (2026) from the Directorate of Development for excellence in educational services.
   * **Global Network:** Mentored students toward successful applications for prestigious global scholarships (UWC, Chevening, DAAD).
 
-```mermaid
+{{<mermaid>}}
 graph TD
     %% Core Identity
     MF[Mulham Fetna: Renaissance Engineer] 
@@ -128,7 +128,7 @@ graph TD
     classDef highlight fill:#f9f,stroke:#333,stroke-width:2px;
     classDef project fill:#e1f5fe,stroke:#01579b,color:#000;
     class NA,SRC,BEC,SM,NET project;
-```
+{{</mermaid>}}
 
 
 

@@ -7,13 +7,13 @@ description: "UWC and Bachelor scholarships mentorship: positioning, application
 # الإرشاد الأكاديمي والمنح (UWC / Bachelor Scholarships)
 
 ## لمن هذه الخدمة؟
-هذه الخدمة مناسبة لك إذا كنتِ:
+هذه الخدمة مناسبة لك إذا:
 
-- تنوين التقديم على منح UWC أو منح البكالوريوس الدولية.
-- تشعرين بالتشتت بين المتطلبات (مقالات، أنشطة، اختبارات، timeline).
-- تريدين تحويل إنجازاتك الحالية إلى ملف تقديم تنافسي ومنطقي.
+- تخطط للتقديم على منح UWC أو منح البكالوريوس الدولية.
+- تشعر بالتشتت بين المتطلبات (مقالات، أنشطة، اختبارات، timeline).
+- تريد تحويل إنجازاتك الحالية إلى ملف تقديم تنافسي ومنطقي.
 
-## ماذا ستحصلين؟
+## ماذا ستحصل؟
 
 1. تقييم واضح لوضعك الحالي مقارنة بمتطلبات المنح المستهدفة.
 2. صياغة احترافية لإنجازاتك وخبراتك بصيغة مناسبة للأبلكيشن.
@@ -41,8 +41,15 @@ description: "UWC and Bachelor scholarships mentorship: positioning, application
 
 ## الأسعار
 
-1. **البرنامج الإرشادي المتكامل**: 50$ دفعة مسبقة واحدة.
-2. **جلسات فردية**: 10$ لكل جلسة.
+### التسعير حسب الجهة الجغرافية
+
+1. **داخل سوريا:** 25$ للجلسة.
+2. **المغتربون/الخليج:** 50$ إلى 75$ للجلسة.
+3. **دولي:** 100$ للجلسة.
+
+### ملاحظة عن البرنامج الكامل
+
+تسعير البرنامج الكامل (3–5 جلسات + متابعة) يتم تحديده بعد جلسة التشخيص حسب الحاجة الفعلية.
 
 ## سياسة الحجز والدفع
 
@@ -52,9 +59,11 @@ description: "UWC and Bachelor scholarships mentorship: positioning, application
 - يسمح بإعادة جدولة مرة واحدة عند إشعار مسبق **24 ساعة**.
 - لا يوجد استرداد بعد تنفيذ الجلسة.
 
+> **تنبيه مهم:** للمدفوعات الدولية، تواصل معي مباشرة على **[mulham.fetna.blog@gmail.com](mailto:mulham.fetna.blog@gmail.com)** وسيتم التعامل يدويًا مؤقتًا إلى أن يصبح حجم الطلب مبررًا لنظام دفع آلي.
+
 ### خطوات الحجز (مهم)
-1. حوّلي الرسوم عبر ShamCash أولًا.
-2. احجزي الموعد عبر Cal.
+1. حوّل الرسوم عبر ShamCash أولًا.
+2. احجز الموعد عبر Cal.
 3. أي حجز بدون تأكيد الدفع يتم إلغاؤه تلقائيًا.
 
 ### معلومات الدفع عبر ShamCash
@@ -73,7 +82,7 @@ description: "UWC and Bachelor scholarships mentorship: positioning, application
 
 ## الدعم وحل المشاكل
 
-لأي مشكلة في الحجز أو الدفع، أرسلي التفاصيل مع لقطات شاشة إلى:
+لأي مشكلة في الحجز أو الدفع، أرسل التفاصيل مع لقطات شاشة إلى:
 **[mulham.fetna.blog@gmail.com](mailto:mulham.fetna.blog@gmail.com)**
 
 {{% /rtl %}}
@@ -90,3 +99,5 @@ Scholarships mentorship focused on UWC/Bachelor applications: profile positionin
 ### Booking & Payment
 - Pay first via ShamCash (Identifier: `d9baec7d91b344eb9c2d04363dd84664`).
 - Direct booking link: [https://cal.com/mulham-fetna/1-hour-meeting](https://cal.com/mulham-fetna/1-hour-meeting)
+- Pricing: $25 (Syria), $50–$75 (Diaspora/Gulf), $100 (International) per session.
+- For international payments, contact: [mulham.fetna.blog@gmail.com](mailto:mulham.fetna.blog@gmail.com) for manual handling.

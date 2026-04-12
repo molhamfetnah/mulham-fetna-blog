@@ -33,7 +33,7 @@ Use these companion pages while studying:
 
 #### Python from Zero to Data Engineering Mastery | Neurobotics Academy | Aleppo Onsite | Q1 2026
 
-#### MLops from Zero to Full Stack AI Engineer | Paper Airplanes | Women in Tech | Spring 206
+#### MLops from Zero to Full Stack AI Engineer | Paper Airplanes | Women in Tech | Spring 2026
 
 #### Python from Zero to Data Engineering Mastery | Neurobotics Academy | Online | 2025
 

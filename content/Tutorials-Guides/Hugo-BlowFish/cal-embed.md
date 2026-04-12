@@ -1,3 +1,7 @@
+---
+
+showInRecent: false
+---
 > https://share.google/aimode/EHKLlksvJSpzMQmGa
 
 To get this specific code block working in your Blowfish theme, follow these steps. We will use a shortcode because Hugo usually blocks `<script>` tags inside Markdown for security.

@@ -1,3 +1,8 @@
+---
+showInRecent: false
+---
+
+
 # Edit Documentation: Global Author + Sharing Activation
 
 This document explains the exact template edits made to ensure author blocks and sharing buttons appear more consistently across page types.

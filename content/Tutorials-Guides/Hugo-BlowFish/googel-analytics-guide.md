@@ -1,4 +1,7 @@
+---
 
+showInRecent: false
+---
 # Google Analytics guide
 > it is not google search console -> [look at this guide](./params-guide.md/#search-engine-property-add)
 

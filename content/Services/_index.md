@@ -27,6 +27,14 @@ date: 2026-03-31
 - يسمح بإعادة جدولة مرة واحدة فقط عند إشعار مسبق **24 ساعة**.
 - لا يوجد استرداد بعد تنفيذ الجلسة.
 
+### نظام التسعير الذكي (حسب الجهة الجغرافية)
+
+1. **داخل سوريا:** 25$ للجلسة.
+2. **المغتربون/الخليج:** 50$ إلى 75$ للجلسة (حسب نوع الطلب وتعقيده).
+3. **دولي:** 100$ للجلسة.
+
+> **تنبيه مهم:** للمدفوعات الدولية، تواصل معي مباشرة على **[mulham.fetna.blog@gmail.com](mailto:mulham.fetna.blog@gmail.com)** وسيتم التعامل يدويًا مؤقتًا إلى أن يصبح حجم الطلب مبررًا لنظام دفع آلي.
+
 ### الإبلاغ عن المشاكل
 
 في حال وجود أي مشكلة في الحجز أو الدفع، أرسل التفاصيل مع لقطات شاشة إلى:  
@@ -47,6 +55,14 @@ Use the service pages above to choose the right offer for your goal.
 - Any unpaid booking is **automatically cancelled**.
 - One reschedule is allowed with **24-hour notice**.
 - No refund after session delivery.
+
+### Smart Pricing Model (Geo-based)
+
+1. **Inside Syria:** $25/session.
+2. **Diaspora/Gulf:** $50–$75/session (based on request type and complexity).
+3. **International:** $100/session.
+
+> **Important:** For international payments, contact me directly at **[mulham.fetna.blog@gmail.com](mailto:mulham.fetna.blog@gmail.com)** and payment will be handled manually until volume justifies a dedicated system.
 
 ### Support
 
