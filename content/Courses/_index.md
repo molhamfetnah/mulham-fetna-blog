@@ -14,6 +14,16 @@ Data science and AI have been the most powerful tools of all time—for the past
 
 - Don't forget to [follow my workshops & camps](/workshops-camps/) for hands-on mastery.
 
+<!-- HOMEPAGE_TESTIMONIALS_START -->
+### Student Outcomes Snapshot
+
+- **Suhaila Hussaini:** "Building a simple app with zero prior knowledge boosted my confidence and made me believe I belong in tech."
+- **Salwa Abduljaleel Nagi Ahmed:** "The course changed my way of thinking and helped me solve work problems more logically and confidently."
+- **Ghinwa Allaoui:** "The coaching style opened doors to practical programming thinking and shortened a long path to real skills."
+
+See the full testimonials and learning tracks on the [Courses page](/courses/).
+<!-- HOMEPAGE_TESTIMONIALS_END -->
+
 ### Build your full learning path
 
 Use these companion pages while studying:

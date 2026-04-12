@@ -54,9 +54,9 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "/img/mulham_professional_photo.jpg" # used in: hero, and card
-  showRecent = true
+  showRecent = false
   showRecentItems = 10
-  showMoreLink = true
+  showMoreLink = false
   showMoreLinkDest = "/posts/"
   cardView = true
   cardViewScreenWidth = false

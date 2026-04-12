@@ -33,6 +33,16 @@ date: 2026-03-31
 2. **المغتربون/الخليج:** 50$ إلى 75$ للجلسة (حسب نوع الطلب وتعقيده).
 3. **دولي:** 100$ للجلسة.
 
+<!-- HOMEPAGE_PAYMENT_START -->
+### International Payments (Quick Note)
+
+للتحويلات الدولية، تواصل معي عبر البريد:
+**[mulham.fetna.blog@gmail.com](mailto:mulham.fetna.blog@gmail.com)**
+
+For international payments, contact me directly at:
+**[mulham.fetna.blog@gmail.com](mailto:mulham.fetna.blog@gmail.com)**
+<!-- HOMEPAGE_PAYMENT_END -->
+
 > **تنبيه مهم:** للمدفوعات الدولية، تواصل معي مباشرة على **[mulham.fetna.blog@gmail.com](mailto:mulham.fetna.blog@gmail.com)** وسيتم التعامل يدويًا مؤقتًا إلى أن يصبح حجم الطلب مبررًا لنظام دفع آلي.
 
 ### الإبلاغ عن المشاكل

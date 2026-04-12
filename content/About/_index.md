@@ -17,6 +17,9 @@ competitions, and scholarships that most assume are out of reach.
 This site is my platform-independent professional record — built after losing
 access to LinkedIn, and designed to outlast any single platform.
 
+For the archived long-form homepage narrative, see:
+[Homepage Archive (v1)](/about/homepage-archive/).
+
 ---
 
 ## Renaissance Engineer Mission

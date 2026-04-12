@@ -1,63 +1,65 @@
 ---
-title: "Mulham Fetna Blog"
+title: "Mulham Fetna | Start Here"
 layout: "page"
+showDate: false
+showAuthor: false
+showAuthorBottom: false
+showDateUpdated: false
+showEdit: false
+showTableOfContents: false
 ---
 
----
+> **إعلان مهم | Important:** التسجيل مفتوح الآن للدفعة القادمة من مسارات Python و MLOps. المقاعد محدودة.
 
-# Renaissance Engineer
+# الصفحة الرئيسية (Router)
 
-**Combining my expertise to revive Syria → Arab world → Islamic world → Global Empact**
+هذه الصفحة صُمّمت لتوجيهك بسرعة نحو أهم المسارات الحالية بدون تشتت.
 
-**Mechatronics Engineer | Data Scientist | MLOps Developer | Researcher | PMP | STEM Instructor | +4 years mentoring | +500 mentees**
-
----
-
-# Mulham Fetna - Founder & CEO
-**Neurobotics** - Integrated Technology Solutions  
-**Boundless** - Academic Services
-
----
-
-## 🧠 Neurobotics Portfolio
-### 1. Neurobotics Academy
-- Python from Zero → Data Engineering Mastery
-- AI/ML from Zero → Hero
-
-### 2. Neurobotics Robotics Engineering Team
-- Comming Soon
-
-### 3. Neurobotics Teens
-- STEM Club -> Coming Soon
-
-### 4. ROS Arabic Community
-- Robotic Operating Systems Devs -> [Interested in joining](https://t.me/ROS_arabic)
+*This homepage is a routing layer: high-signal announcements, top actions, and fast navigation.*
 
 ---
 
-## 📚 Boundless Portfolio
-### 1. Scientific Research Camp
-- Applied Research (Engineering & STEM)
-- Medical Research
-- Humanities Research (Data Collection & Analysis)
-- Emerging Research (AI-Augmented, Participatory, Big Data/Epidemiological AI)
-- Arabic Research Comprehensive Arabic Guide -> Coming Soon
+## ابدأ من هنا | Start Here
 
-### 2. Academic Mentorship
-- Exam prep (SAT, IELTS, TOEFL, GRE, GMAT)
-- Professional Personal Branding
-
-### 3. Scholarships Mentorship
-- Undergraduates (UWC)
-- International Olympiads (IAAC, IYMC, IOI)
-- Bachelor's (US, UK, GCC, EU)
-- Master's (Chevening, DAAD, SAID, Erasmus, GKS)
+1. **المسار الرئيسي (موصى به):** [استعرض الكورسات الحالية](/courses/) ثم قدّم عبر الفورم الموجود داخل صفحة الكورس.
+2. **المسار المباشر:** [ورشات ومعسكرات](/workshops-camps/) للتطبيق العملي والتحديثات القادمة.
+3. **المسار الفردي:** [الإرشاد والاستشارات](/services/) للدعم الشخصي والأكاديمي.
 
 ---
 
-> **Coming Soon:** Entrepreneurial Research Camp (in cooperation between Boundless & Neurobotics)
+## لماذا هذا المسار؟ | Why this path?
+
+{{< page-section page="/Courses" start="HOMEPAGE_TESTIMONIALS_START" end="HOMEPAGE_TESTIMONIALS_END" >}}
 
 ---
 
+## المواضيع الساخنة | Hot Topics
 
-<!-- {{<cal-embed>}} -->
+### 1. Courses
+ابدأ بمسارات تعلم منظمة من الصفر إلى التنفيذ:  
+**[Go to Courses](/courses/)**
+
+### 2. Workshops & Camps
+تعلّم عملي مباشر وتحديثات الأنشطة القادمة:  
+**[Go to Workshops](/workshops-camps/)**
+
+### 3. Roadmaps
+خطط تعلم طويلة المدى للمجالات الهندسية والبيانية:  
+**[Go to Roadmaps](/roadmaps/)**
+
+### 4. Mentorship & Consultations
+توجيه فردي للمسار الأكاديمي أو المهني:  
+**[Go to Services](/services/)**
+
+---
+
+## الدفع الدولي | International Payment
+
+{{< page-section page="/Services" start="HOMEPAGE_PAYMENT_START" end="HOMEPAGE_PAYMENT_END" >}}
+
+---
+
+## CTA النهائي | Final CTA
+
+إذا هدفك الانضمام للدفعة القادمة، ابدأ من صفحة الكورسات واختر المسار ثم انتقل للفورم:  
+**[Start from Courses](/courses/)**

@@ -1,0 +1,24 @@
+{{ $pageRef := .Get "page" }}
+{{ $startToken := .Get "start" }}
+{{ $endToken := .Get "end" }}
+
+{{ with site.GetPage $pageRef }}
+  {{ $raw := .RawContent }}
+  {{ $startMarker := printf "<!-- %s -->" $startToken }}
+  {{ $endMarker := printf "<!-- %s -->" $endToken }}
+
+  {{ $afterStart := split $raw $startMarker }}
+  {{ if ge (len $afterStart) 2 }}
+    {{ $after := index $afterStart 1 }}
+    {{ $beforeEnd := split $after $endMarker }}
+    {{ if ge (len $beforeEnd) 2 }}
+      {{ index $beforeEnd 0 | markdownify }}
+    {{ else }}
+      {{ warnf "page-section shortcode: end token %q not found in %q (%s)" $endToken $pageRef .Position }}
+    {{ end }}
+  {{ else }}
+    {{ warnf "page-section shortcode: start token %q not found in %q (%s)" $startToken $pageRef .Position }}
+  {{ end }}
+{{ else }}
+  {{ warnf "page-section shortcode: page %q not found (%s)" $pageRef .Position }}
+{{ end }}
