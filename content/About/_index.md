@@ -3,69 +3,78 @@ title: "About Mulham Fetna"
 image: "/img/mulham_professional_photo.jpg"
 ---
 
-# Mulham Fetna Blog
-**Mechatronics Engineer | Renaissance Engineer | MLOps Developer | STEM International Instructor | Robotics Enthusiast**
+# Mulham Fetna
 
-**Sharing insights on robotics, engineering, and technology.**  
-**Explore articles, projects, tutorials on latest advancements.**
+Mechatronics engineering student at Aleppo University, fourth year of five.
+I have been teaching Python, Data Science, MLOps, Robotics, and Embedded Systems since 2021 — across Syria,
+Lebanon, Palestine, and remotely through international programs including Paper
+Airplanes and HerWill. Over 500 mentees across 7+ cohorts.
 
-**Join the journey of discovery and innovation in robotics and engineering.**
+I founded Neurobotics to close the gap between academic theory and real engineering
+practice, and Boundless to help Syrian students access international research,
+competitions, and scholarships that most assume are out of reach.
+
+This site is my platform-independent professional record — built after losing
+access to LinkedIn, and designed to outlast any single platform.
 
 ---
 
 ## Renaissance Engineer Mission
+
 **Combining expertise:** Mechatronics + Data Science + MLOps + Research + STEM Training
 
 **Target:** Syria → Arab world → Islamic world → Global Impact
 
-**Experience:** +4 years mentoring | +500 mentees | Neurobotics Founder | Boundless Director
+**Experience:** +4 years mentoring | +500 mentees | Neurobotics Founder | Boundless Founder
 
---- 
+---
 
 # Professional Experience
+
 ## Founder & CEO | [Neurobotics - Integrated Technology Solutions](https://www.instagram.com/neurobotics_tech) | JAN/2025 - Ongoing
 
-> **Vision:** Engineering Minds & Machines. Leading a multidisciplinary team to bridge the gap between academic theory and industrial mechatronics.
+> **Vision:** Engineering Minds & Machines. Bridging the gap between academic theory and industrial mechatronics practice.
 
 ### Neurobotics Divisions
 
-  * **1. Neurobotics Academy:** Python & AI/ML MLOps Diplomas.
-  * **2. Neurobotics Engineering Team:** Custom Mechatronics & Robotics.
-  * **3. Neurobotics Junior:** STEM Labs for KG1-High School.
-  * **4. ROS Arabic Community:** Founded and managing a specialized community for Robotic Operating System developers.
+* **Neurobotics Academy:** Python, Data Engineering, and MLOps diplomas — 2 paid cohorts delivered, 20+ students across Syria.
+* **Neurobotics Engineering Team:** Custom mechatronics and robotics solutions — active development.
+* **Neurobotics Junior:** STEM labs for KG1 through high school — in preparation.
+* **ROS Arabic Community:** Founded and managing a specialized Arabic-language community for Robotic Operating System developers.
 
-### Key Executive Achievements
+### Key Achievements
 
-  * **Scale:** Successfully delivered high-level technical training to over **270+ students** across Syria, Lebanon, and Palestine.
-  * **Curriculum Design:** Developed the "Personal Branding 101" and "STEM Junior" frameworks from the ground up.
-  * **Leadership:** Managing a volunteer and professional staff across multiple technical domains.
+* Delivered 7+ Python and MLOps cohorts with documented student outcomes and published testimonials.
+* Developed the Personal Branding 101 and STEM Junior curriculum frameworks from scratch.
+* Received **Top 3 Ramadan Initiative Award 2026** from the Directorate of Development for excellence in educational services.
+* Invited to deliver a hybrid Professional Personal Branding program at Homs University IT Department.
 
------
+---
 
-## Founder & CEO | [Boundless - Academic Services](https://www.google.com/search?q=https://www.instagram.com/boundless.academics) | JAN/2025 - Ongoing
+## Founder & CEO | [Boundless - Academic Services](https://www.instagram.com/boundless.academics) | JAN/2025 - Ongoing
 
-> **Vision:** Removing barriers to global academic excellence. Providing the roadmap for research, competitions, and international scholarships.
+> **Vision:** Removing barriers to global academic excellence for Syrian and Arab students.
 
 ### Boundless Divisions
 
-  * **1. Scientific Research Camp:** Applied, Medical, and AI-Augmented Research.
-  * **2. Boundless Elite Club:** International Olympiads (IAAC, IYMC, IOI).
-  * **3. Scholarship Mentorship:** Global undergraduate and graduate placements.
-  * **4. Academic Mentorship:** Standardized exams and language proficiency.
+* **Scientific Research Camp (SRC1):** 75 graduates in the first cohort — engineering, medical, and agriculture research tracks. One publication under review.
+* **Boundless Elite Club:** International Olympiads including IAAC, IYMC, and IOI. IPHO national team trainer and ICSC/IAAC ambassador.
+* **Scholarship Mentorship:** 3 confirmed UWC final acceptances. Students placed toward Chevening, DAAD, and GKS scholarships.
+* **Academic Mentorship:** Standardized exams (SAT, IELTS, TOEFL, GRE) and professional personal branding.
 
-### Key Executive Achievements
+### Key Achievements
 
-  * **Research Impact:** Graduated **75 students** in the first Scientific Research Camp class, covering diverse engineering and medical tracks.
-  * **Award Recognition:** Received the **"Ramadan Initiatives" award** (2026) from the Directorate of Development for excellence in educational services.
-  * **Global Network:** Mentored students toward successful applications for prestigious global scholarships (UWC, Chevening, DAAD).
+* Partnered with SANAD and UNFPA for the Scientific Research Camp.
+* Ambassador for Aspire Leaders x Harvard Program and McKinsey Step Forward Program.
+* Built the first structured Arabic-language research methodology guide for undergraduate students in Aleppo — currently in final editing.
+
+---
 
 {{<mermaid>}}
 graph TD
-    %% Core Identity
-    MF[Mulham Fetna: Renaissance Engineer] 
+    MF[Mulham Fetna: Renaissance Engineer]
     style MF fill:#2a004e,color:#fff,stroke:#146c94,stroke-width:4px
 
-    %% Main Organizations
     NB[Neurobotics: Integrated Tech]
     BL[Boundless: Academic Services]
     style NB fill:#20002c,color:#fff,stroke:#146c94
@@ -76,7 +85,6 @@ graph TD
     MF --> VOL[Strategic Volunteering & Leadership]
     MF --> EDU[Academic Foundation]
 
-    %% Neurobotics Branch
     NB --> NA[Neurobotics Academy]
     NB --> NET[Robotics Engineering Team]
     NB --> ROS[ROS Arabic Community]
@@ -84,11 +92,10 @@ graph TD
     NA --> P7[Python Mastery: 7+ Cohorts]
     NA --> MLO[MLOps Mastery: Onsite Aleppo]
     NA --> HW[HerWill USA: Curriculum Design]
-    
+
     P7 --- PA[Paper Airplanes: Mentor of Semester]
     P7 --- CI[Course-ing Platform Partner]
 
-    %% Boundless Branch
     BL --> SRC[Scientific Research Camp]
     BL --> BEC[Boundless Elite Club]
     BL --> SM[Scholarship Mentorship]
@@ -104,102 +111,182 @@ graph TD
     SM --- ASP[Aspire Leaders Ambassador]
     SM --- MCK[McKinsey Step Forward]
 
-    %% Joint Initiatives (The Synergy)
     NA -.-> |"Personal Branding 101"| BEC
     NA -.-> |"Data & AI Careers Workshop"| SRC
-    
-    %% Awards & Recognition
+
     RAM{Top 3 Ramadan Initiative 2026}
     BEC --- RAM
     NA --- RAM
     RAM --> HOMS[Homs University IT Hybrid Program]
 
-    %% Affiliations & Networks
     VOL --> SPN[SyproNet: Mechatronics Advisor]
     VOL --> DSFG[DSFG: Executive Coordinator]
     VOL --> SEU[Syrian Entrepreneurs Union]
     VOL --> SYNC[SYNC / Digital Syria]
 
-    %% Education Node
     EDU --> AL[Aleppo University: Mechatronics]
     AL --- TOP[Top of Class: 89% Grade]
 
-    %% Layout Styling
-    classDef highlight fill:#f9f,stroke:#333,stroke-width:2px;
     classDef project fill:#e1f5fe,stroke:#01579b,color:#000;
     class NA,SRC,BEC,SM,NET project;
 {{</mermaid>}}
 
+---
 
+## Python Data Engineering & MLOps Instructor — Neurobotics Academy
+
+Designed and delivered the complete Python Zero to Data Engineering Mastery
+curriculum across 3 paid cohorts. Curriculum covers core Python, data engineering,
+data engineering, APIs, async systems, and production portfolio delivery over 36
+hours across 3 months.
+
+---
+
+## Python Data Engineering & MLOps Instructor — [Paper Airplanes](https://www.paper-airplanes.org/)
+
+Delivered Python Level 1, Python Level 2, and MLOps full-stack AI courses to 60+
+women across the Arab world, Turkey, and Central Asia through the Women in Tech Program.
+
+* **Volunteer of the Month — Fall 2025:** [Facebook](https://www.facebook.com/share/p/1FQ5U9YKtG/) | [Instagram](https://www.instagram.com/p/DVOo3EsjAsp/) | [LinkedIn](https://www.linkedin.com/posts/p-airplanes_womenintech-volunteerofthemonth-paperairplanes-activity-7432831828413210624-QdEF)
+
+---
+
+## Data Engineering Curriculum Designer — [HerWill](https://www.herwill.org/)
+
+Designed and delivered a full Python data engineering curriculum under a
+volunteering contract with HerWill, a US-based women in STEM organization.
+
+---
+
+## STEM Instructor for GCC Students — Modarby
+
+Delivered STEM sessions to GCC-based students through the Modarby platform.
+
+---
+
+## STEM & Programming Trainer — Syrian Virtual University / Distinction and Creativity Agency
+
+One of 20 selected national trainers for the Kids and Adolescents Programming
+Marathon (KPM), delivering programming fundamentals to 350+ students across Syria.
 
 ---
 
 # Affiliations
 
-## Mechatronics Expert 
+## Mechatronics Advisor — Syrian Professional Network (SyrProNet)
+
+Technical advisor on mechatronics engineering topics within Syria's largest
+professional technical network.
+
+## Executive Coordinator — Northern Syria Team, DSFG
+
+Coordinating technical and development initiatives across northern Syria through
+the German–Syrian Research Foundation e.V. Deutsch-Syrische Forschungsgesellschaft network.
+
+## Member — Syrian Entrepreneurs Union
+
+Active member of the Syrian Entrepreneurs Union, engaged in the technical
+and educational entrepreneurship track.
+
+## Member — SYNC / Digital Syria
+
+Contributor to digital transformation and technology education initiatives across
+Syria.
 
 ---
 
 # Education
 
+## Bachelor of Mechatronics Engineering — University of Aleppo | 2023–2027
+
+* Currently in fourth year
+Top of class with an 89% cumulative grade, for first two years
+* Coursework spans mechanical design, embedded systems, control theory,
+robotics, and industrial automation
+
+## Syrian Baccalaureate — 2022–2023
+
+* Score: 2313 / 2400 — 96.375%
 
 ---
-
 
 # Volunteering
 
----
+## Volunteer Instructor — Paper Airplanes, Women in Tech Program | 2024–Ongoing
 
+Delivering Python and MLOps courses to women in conflict-affected regions
+remotely. Recognized as Volunteer of the Month for Fall 2025.
 
+## Volunteer Curriculum Designer — HerWill | 2024
 
-# Projects
+Designed full Python data engineering curriculum on a voluntary basis.
 
-## Professional Personal Brand 101 Camp
+## WUDC Debater — British Parliamentary Format | 2023–Ongoing
 
-## Scientific Research Camp (SRC1)
+Active competitive debater in the World Universities Debating Championships
+format
 
+## National Programming Trainer — KPM / SVU / DCA | 2022–2023
 
-
----
-
-# Services
-
-## Academic Mentorship
-
-## Professional Mentorship
-
-
-
----
-
-# Licenses & Certifications & Honors & Awards
+* One of 20 nationally selected trainers delivering programming education to
+children and adolescents across Syria
+* Under the Kids Programming Marathon which os organized in cooperation between Syrian Virtual University SVU & Distinction and Creativity Agency DCA & The Syrian Science Olympiad
 
 
 ---
 
-# Courses
+# Licenses, Certifications, Honors & Awards
 
+## Top 3 — Ramadan Initiatives Award 2026
+Directorate of Development — awarded for excellence in educational services
+through Neurobotics Academy and Boundless Elite Club.
+
+## CS50 Certified Instructor — Harvard University
+Authorized to deliver Harvard's CS50 curriculum independently.
+
+## Project Management Professional (PMP) Preparation
+Completed structured PMP preparation coursework.
+
+## Monitoring, Evaluation, Accountability and Learning (MEAL)
+Completed structured preparation coursework in MEAL methodology for research and program management.
+
+## Data Collection — Certified
+Structured data collection methodology for applied research contexts.
+
+## McKinsey Forward Program
+Completed McKinsey's professional development program for emerging leaders.
+
+## eCornell — Take the Lead Program
+Leadership development program, Cornell University's online division.
+
+## Aspire Leaders Program — Harvard University
+Selected participant in the Aspire Leaders x Harvard leadership program.
+Currently serving as Aspire Leaders Ambassador.
+
+## Research Mentorship Program — RP1 | 2026
+Accepted participant in the Research Mentorship Program Series 1,
+focused on academic research methodology and publication track.
+
+<!-- ---
+
+# Publications -->
 
 ---
 
-# Recommendations
+# Organizations
 
+* **Syrian Professional Network (SyrProNet)** — Mechatronics Advisor
+* **DSFG** — Executive Coordinator, Northern Syria Team
+* **Paper Airplanes** — Volunteer Instructor, Women in Tech Program
+* **HerWill** — Volunteer Curriculum Designer
+* **Syrian Entrepreneurs Union** — Member
+* **SYNC / Digital Syria** — Member
+* **Aspire Leaders** — Ambassador
+* **McKinsey Forward** — Alumni
+* **Research Mentorship Program RP1** — Participant 2026
+* **ROS Arabic Community** — Founder
+* **Boundless** — Founder & CEO
+* **Neurobotics** — Founder & CEO
+* **Courseing Platform** — Partner Instructor
 
 ---
-
-# Publications
-
----
-
-# Test Scores
-
----
-
-# Orginizations
-
----
-
-
-
-
-
