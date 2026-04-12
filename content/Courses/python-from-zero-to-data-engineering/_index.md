@@ -4,410 +4,128 @@ summary: Beginner-to-professional Python program covering fundamentals, data sta
 
 ---
 
-# 📚 Python Mastery Bootcamp 2026 - Complete Course Overview
+# Python Mastery Bootcamp 2026 — Course overview
 
-## 🎯 **Course Mission**
-Transform beginners into **production-ready Python developers** through 24 intensive sessions covering **fundamentals → advanced systems → full-stack portfolio projects**.
+**Neurobotics Academy** · Lead instructor: **Eng. Mulham Fetna**
 
-**Duration**: 24 sessions (3 session/week × 2 months /or 2 session/week × 3 months)  
-**Level**: Beginner → Professional Data Engineer  
-**Target**: Job-ready portfolio + interview skills
+## Mission
 
-### Related pages to maximize outcomes
+Take beginners to **production-style Python**: fundamentals, data work, databases, dashboards, OOP, Git, scraping, APIs/async, and a **graduation capstone** (“Data Intelligence Platform” pattern).
 
-1. [Python Data Engineering & MLOps roadmap](/roadmaps/python-data-to-mlops-roadmap/) for full sequencing.
-2. [Courses hub](/courses/) for cross-track planning.
-3. [Workshops & Camps](/workshops-camps/) for live practice and announcements.
-4. [Mentorship Services](/services/) for personalized implementation support.
+**Level:** Beginner → job-ready portfolio (Python + data + shipping).  
+**Sessions:** 24 (see [SCHEDULE](#python-mastery-bootcamp-2026--session-schedule-canonical) for exact titles and artifacts).
 
-## 📋 **Complete Session Curriculum**
+## Pacing (per cohort)
 
-### **Phase 1: Python Foundations (Sessions 1-6)**
-```
-1.  Python Basics & Data Types
-2.  Control Flow (Conditions/Loops)  
-3.  Functions & Scope
-4.  Data Structures (Lists/Tuples/Dicts/Sets)
-5.  File I/O & String Processing
-6.  Error Handling & Debugging
-```
+- **Option A:** 2 sessions/week → ~**12 weeks** (~3 months)  
+- **Option B:** 3 sessions/week → ~**8 weeks** (~2 months)
 
-### **Phase 2: Core Programming (Sessions 7-12)**
-```
-7.  Object-Oriented Programming (Classes/OOP)
-8.  Advanced OOP (Inheritance/Polymorphism)
-9.  Functional Programming (Lambdas/Map/Filter)
-10. Modules & Packages
-11. Regular Expressions & Text Processing
-12. JSON/XML Processing
-```
+## Session curriculum
 
-### **Phase 3: Data Science Foundation (Sessions 13-16)**
-```
-13. NumPy - Numerical Computing
-14. Pandas - Data Manipulation
-15. Matplotlib/Seaborn - Visualization
-16. SQLite - Database Fundamentals
-```
+Phases match [SCHEDULE](#python-mastery-bootcamp-2026--session-schedule-canonical).
 
-### **Phase 4: Modern Development Tools (Sessions 17-20)**
-```
-17. GUI Development (Tkinter)
-18. Web UI (Streamlit/Dash)
-19. Version Control (Git/GitHub)
-20. Web Scraping (BeautifulSoup/requests)
-```
+### Phase 1 — Foundations (sessions 1–6)
 
-### **Phase 5: APIs & Production Systems (Sessions 21-23)**
-```
-21. REST APIs (requests library)
-22. Multi-API Pipelines + Async Requests
-23. Data Science Capstone Project
-```
+1. Introduction and Python Setup  
+2. Python Data Types, Variables, and Basic Arithmetic  
+3. Conditional Statements & Math Operations  
+4. Loops + Data Structures + JSON CRUD  
+5. Functions + Nested Loops + Time Complexity  
+6. Lists + Modular Functions + Package Intro  
 
-### **Phase 6: Professional Mastery (Session 24)**
-```
-24. 🎓 GRADUATION: Data Intelligence Platform
-   ├── Full-stack production application
-   ├── Async APIs + Web Scraping
-   ├── Streamlit Dashboard + Plotly
-   ├── SQLite ORM + Testing Suite
-   ├── GitHub Deployment + CI/CD
-   └── Portfolio-ready showcase
-```
+### Phase 2 — Data in Python (sessions 7–11)
 
-## 🛠️ **Technologies Mastered**
+7. Dictionaries + JSON Databases  
+8. NumPy + Virtual Environments + Statistics  
+9. Matplotlib + Linear Regression  
+10. File I/O + OS Navigation + Error Handling  
+11. Tkinter GUI + Student Attendance System  
 
-```
-Core Python (100%)
-├── Data Types → Async Programming
-├── OOP → Functional Programming
-└── Error Handling → Decorators
+### Phase 3 — Databases & analytics (sessions 12–17)
 
-Data Science Stack (80%)
-├── NumPy • Pandas • Matplotlib
-├── SQLite • Data Cleaning
-└── Statistical Analysis
+12. SQL + SQLite + Database Relationships  
+13. Pandas DataFrames + Functional Programming  
+14. Advanced Pandas + Export + Streamlit Dashboards  
+15. Web UI - Markdown + Dash + Streamlit  
+16. SQLite + Advanced Pandas Data Cleaning  
+17. Data Pipeline QA, Logging & Reproducible Runs  
 
-Production Tools (90%)
-├── Git/GitHub • requirements.txt
-├── Web Scraping • REST APIs
-├── Streamlit Dashboards
-└── AsyncIO • aiohttp
+### Phase 4 — Software design & shipping (sessions 18–20)
 
-Deployment Ready (100%)
-├── Professional project structure
-├── Production README.md
-├── GitHub Actions CI/CD
-└── Multi-environment support
-```
+18. Complete OOP Mastery  
+19. Functional Programming Mastery  
+20. Git & GitHub Version Control Mastery  
 
-## 📈 **Learning Progression**
+### Phase 5 — Integration & production (sessions 21–24)
 
-```
-Week 1-6:    Code → Write basic programs
-Week 7-12:   Systems → Build modular applications  
-Week 13-18:  Data → Analyze + visualize datasets
-Week 19-24:  Production → Deploy full-stack systems
-```
+21. Complete Web Scraping → Production Dashboard  
+22. Complete REST APIs → Production Data Pipeline  
+23. Complete Data Science Portfolio Project  
+24. GRADUATION PROJECT — Complete Python Mastery Showcase  
 
-## 🎓 **Graduation Deliverables**
+## Technologies
 
-### **1. Production Portfolio Project**
-```
-data_intelligence_platform/          ⭐ 10/10 Portfolio Ready
-├── app.py                          # Async orchestrator
-├── services/                       # API + Scraping modules
-├── database/                       # SQLite ORM
-├── ui/dashboard.py                 # Streamlit + Plotly
-├── tests/test_suite.py             # pytest coverage
-├── requirements.txt                # Production deps
-├── README.md                       # Deployment guide
-└── .github/workflows/ci.yml        # GitHub Actions
-```
+- **Python:** stdlib, venv, OOP, functional patterns, `logging`, testing basics  
+- **Data:** NumPy, Pandas, Matplotlib; SQLite; Streamlit / Dash  
+- **Shipping:** Git/GitHub, `requirements.txt`, structured projects  
+- **Integration:** requests, BeautifulSoup, asyncio / async APIs (as covered in sessions)  
 
-### **2. Skill Certification Matrix**
-```
-✅ Python Fundamentals           [100%]
-✅ OOP + Functional Programming  [100%]
-✅ Data Science Pipeline         [95%]
-✅ Web Scraping + APIs           [100%]
-✅ Async Programming             [90%]
-✅ Production Deployment         [100%]
-✅ Git/GitHub Workflow           [100%]
-✅ Streamlit Dashboard           [100%]
-```
+## Graduation deliverable
 
-### **3. Live Demo Capabilities**
-```
-🔄 Real-time API data (GitHub/Weather)
-🕷️  Live web scraping
-📊 Interactive Plotly charts
-🗄️  SQLite data persistence
-⚡ Async background updates
-💾 Multi-format export (CSV/JSON/SQL)
-```
+Capstone integrates scraping/APIs, Pandas processing, SQLite, Streamlit (or similar UI), tests, and GitHub-ready layout. Session 24 defines the full architecture checklist.
+Fetna.md`  
 
-## 🚀 **Career Outcomes**
+## License
 
-```
-🎯 Entry-Level Positions:
-├── Junior Python Developer
-├── Data Analyst 
-├── Backend API Developer
-└── Automation Engineer
+Designed for use within **Neurobotics Academy**. Rights reserved by Neurobotics Academy and the course developer unless otherwise agreed in writing.
 
-💼 Portfolio Value: $15K-25K salary boost
-📈 Interview Ready: 90% success rate
-🌍 Deployed Projects: GitHub showcase
-```
-
-## 📚 **Weekly Structure**
-
-```
-Each Session Includes:
-1. Theory + Concepts (20%)
-2. Live Code Examples (30%)
-3. Production Workflow (30%)
-4. Hands-on Assignment (20%)
-```
-
-## 🎁 **Bonus Materials Provided**
-
-```
-✅ 24 Complete Session Notebooks
-✅ Production Portfolio Template
-✅ requirements.txt for all sessions
-✅ GitHub deployment guides
-✅ Interview question bank
-✅ Resume optimization guide
-✅ Professional README templates
-```
-
-## 🏆 **Final Assessment**
-
-```
-Technical Skills:     [A+] 95/100
-Project Quality:      [A+] 98/100
-Production Readiness: [A+] 97/100
-Portfolio Impact:     [A++] 100/100
 ---
-🎓 OVERALL: A+ DISTINCTION
-```
 
-## 🎉 **Course Completion Certificate**
+# Python Mastery Bootcamp 2026 — session schedule
 
-```
-PYTHON MASTERY BOOTCAMP 2026
-24 Sessions • 500+ Hours • Production Portfolio
-Certified: Full-Stack Python Data Engineer
+Single source of truth for **order and titles**.
 
-Skills Mastered:
-• Core Python → Async Systems
-• Data Science → ML Foundations  
-• APIs → Web Scraping
-• Git → Production Deployment
-• Streamlit → Plotly Dashboards
+| Session | Title | Primary stack 
+|--------:|--------|---------------|
+| 1 | Introduction and Python Setup | Python, VS Code | [session1.md](session1.md) | [session1-support.md](session1-support.md) | [session1.py](run_files/session1.py) |
+| 2 | Python Data Types, Variables, and Basic Arithmetic | Core Python | [session2.md](session2.md) | [session2-support.md](session2-support.md) | [session2.py](run_files/session2.py) |
+| 3 | Conditional Statements & Math Operations | Control flow | [session3.md](session3.md) | [session3-support.md](session3-support.md) | [session3.py](run_files/session3.py), [session3.md](run_files/session3.md) |
+| 4 | Loops + Data Structures + JSON CRUD | Loops, JSON | [session4.md](session4.md) | [session4-support.md](session4-support.md) | [session4.py](run_files/session4.py) |
+| 5 | Functions + Nested Loops + Time Complexity | Functions | [session5.md](session5.md) | [session5-support.md](session5-support.md) | [session5.py](run_files/session5.py), [session5.md](run_files/session5.md) |
+| 6 | Lists + Modular Functions + Package Intro | Lists, modules | [session6.md](session6.md) | [session6-support.md](session6-support.md) | [session6.py](run_files/session6.py) |
+| 7 | Dictionaries + JSON Databases | dict, JSON IO | [session7.md](session7.md) | [session7-support.md](session7-support.md) | [session7.py](run_files/session7.py), [session7.md](run_files/session7.md) |
+| 8 | NumPy + Virtual Environments + Statistics | NumPy, venv | [session8.md](session8.md) | [session8-support.md](session8-support.md) | [session8.py](run_files/session8.py) |
+| 9 | Matplotlib + Linear Regression | Matplotlib, sklearn intro | [session9.md](session9.md) | [session9-support.md](session9-support.md) | [session9.py](run_files/session9.py) |
+| 10 | File I/O + OS Navigation + Error Handling | pathlib, exceptions | [session10.md](session10.md) | [session10-support.md](session10-support.md) | [session10.py](run_files/session10.py) |
+| 11 | Tkinter GUI + Student Attendance System | Tkinter, JSON | [session11.md](session11.md) | [session11-support.md](session11-support.md) | [session11.py](run_files/session11.py) |
+| 12 | SQL + SQLite + Database Relationships | SQL, SQLite | [session12.md](session12.md) | [session12-support.md](session12-support.md) | [session12-9.py](run_files/session12-9.py) |
+| 13 | Pandas DataFrames + Functional Programming | Pandas, FP | [session13.md](session13.md) | [session13-support.md](session13-support.md) | [session13-projects.py](run_files/session13-projects.py) |
+| 14 | Advanced Pandas + Export + Streamlit Dashboards | Pandas, Streamlit | [session14.md](session14.md) | [session14-support.md](session14-support.md) | [session14-12.py](run_files/session14-12.py) |
+| 15 | Web UI - Markdown + Dash + Streamlit | Dash, Streamlit | [session15.md](session15.md) | [session15-support.md](session15-support.md) | [session15-13.py](run_files/session15-13.py) |
+| 16 | SQLite + Advanced Pandas Data Cleaning | SQLite, Pandas ETL | [session16.md](session16.md) | [session16-support.md](session16-support.md) | [session16-13.py](run_files/session16-13.py) |
+| 17 | Data Pipeline QA, Logging & Reproducible Runs | logging, validation | [session17.md](session17.md) | [session17-support.md](session17-support.md) | [session17-14.py](run_files/session17-14.py) |
+| 18 | Complete OOP Mastery | OOP, dataclasses | [session18.md](session18.md) | [session18-support.md](session18-support.md) | [session19-18.py](run_files/session19-18.py) |
+| 19 | Functional Programming Mastery | map/filter/reduce | [session19.md](session19.md) | [session19-support.md](session19-support.md) | [session20-19.py](run_files/session20-19.py) |
+| 20 | Git & GitHub Version Control Mastery | Git | [session20.md](session20.md) | [session20-support.md](session20-support.md) | [session21-github.md](run_files/session21-github.md) |
+| 21 | Complete Web Scraping → Production Dashboard | BeautifulSoup, requests | [session21.md](session21.md) | [session21-support.md](session21-support.md) | [session22.py](run_files/session22.py) |
+| 22 | Complete REST APIs → Production Data Pipeline | requests, asyncio | [session22.md](session22.md) | [session22-support.md](session22-support.md) | [session23.py](run_files/session23.py) |
+| 23 | Complete Data Science Portfolio Project | Capstone prep | [session23.md](session23.md) | [session23-support.md](session23-support.md) | (see lesson) |
+| 24 | GRADUATION PROJECT - Complete Python Mastery Showcase | Full-stack capstone | [session24.md](session24.md) | [session24-support.md](session24-support.md) | [session18-upwork-project/](run_files/session18-upwork-project/) |
 
-Portfolio: data_intelligence_platform (LIVE)
-Graduated: January 11, 2026
-```
+## Pacing (sper cohort)
 
-***
+- **24 sessions** total.
+- **Option A:** 2 sessions/week → **~12 weeks (~3 months)**  
+- **Option B:** 3 sessions/week → **~8 weeks (~2 months)**
 
-# 📜 **Instructor's Summary & Certificate Framework**
 
-## 🎓 **Instructor's Final Summary - Python Mastery Bootcamp 2026**
+## Phase grouping
 
-**Instructor**: Mulham Fetna (Neurobotics)  
-**Course Duration**: 24 Sessions (Jan - Jun 2026)  
-**Graduates**: 1 (Distinction - Perfect Completion)  
-**Completion Date**: January 11, 2026  
+Aligned with the table above (not legacy overview docs).
 
-### **📊 Course Execution Excellence**
+1. **Foundations (1–6):** setup through lists and modular code  
+2. **Data in Python (7–11):** dicts/JSON, NumPy, visualization, files, GUI  
+3. **Databases & analytics (12–17):** SQL/SQLite, Pandas, Streamlit/Dash, ETL-style SQLite+Pandas, pipeline QA  
+4. **Software design & shipping (18–20):** OOP, functional style, Git/GitHub  
+5. **Integration & production (21–24):** scraping, APIs/async, portfolio project, graduation platform  
 
-```
-Achievement Metrics:
-✅ 100% Session Delivery (24/24 Complete)
-✅ 100% Assignment Completion Rate
-✅ 100% Production Portfolio Deployed
-✅ 95%+ Code Quality (Production Standards)
-✅ 10/10 Portfolio Project Complexity
-✅ 0% Missed Deadlines
-```
-
-### **🎯 Student Performance Highlights**
-
-**Technical Mastery Achieved**:
-```
-Phase 1-2: Core Python           → EXPERT [100%]
-  ├── Data Structures            → Mastered
-  ├── OOP/Functional Programming → Production Level
-  └── Error Handling             → Enterprise Standards
-
-Phase 3-4: Data Science          → EXPERT [98%]
-  ├── Pandas/NumPy               → Advanced Analytics
-  ├── Visualization              → Interactive Plotly
-  └── Web Scraping/APIs          → Multi-source Pipeline
-
-Phase 5-6: Production Systems    → EXPERT [100%]
-  ├── AsyncIO/aiohttp            → Non-blocking Architecture
-  ├── Git/GitHub                 → Professional Workflow
-  ├── Streamlit Dashboards       → Full-stack Deployment
-  └── SQLite ORM                 → Database Engineering
-```
-
-### **🏆 Final Project Evaluation: "Data Intelligence Platform"**
-
-```
-Architecture:           [A++] 10/10
-├── Modular OOP Design              ✅
-├── Async Multi-API Pipeline        ✅  
-├── Production Database Layer       ✅
-├── Real-time Streamlit Dashboard   ✅
-└── Complete Test Coverage          ✅
-
-Production Readiness:   [A+]  9.8/10
-├── GitHub Deployment Complete     ✅
-├── requirements.txt Optimized     ✅
-├── Professional README.md         ✅
-├── CI/CD Pipeline Ready           ✅
-└── Multi-environment Support      ✅
-
-Portfolio Impact:       [A++] 10/10
-├── Interview-Ready Showcase       ✅
-├── $25K+ Salary Value             ✅
-├── Real Client Applications       ✅
-└── Production Documentation       ✅
-```
-
-## 🎫 **OFFICIAL CERTIFICATE FRAMEWORK**
-
-### **Certificate of Completion - Gold Distinction**
-
-```
-╔════════════════════════════════════════════════════════════════════╗
-║  🏆 PYTHON MASTERY BOOTCAMP 2026 - GOLD DISTinction                 ║
-║                                                                    ║
-║  Certified Full-Stack Python Data Engineer                         ║
-║  Neurobotics Academy • Mulham Fetna, Lead Instructor               ║
-║                                                                    ║
-║  STUDENT: [YOUR NAME]                                             ║
-║  GRADUATION DATE: January 11, 2026                                ║
-║  COURSE DURATION: 24 Sessions • 500+ Hours                        ║
-║                                                                    ║
-║  MASTERY LEVEL ACHIEVED: PRODUCTION ENGINEER                      ║
-║  FINAL GRADE: A++ (98.7%)                                         ║
-║                                                                    ║
-║  CORE COMPETENCIES CERTIFIED:                                     ║
-║  • Advanced Python Programming (OOP/Async/Functional)             ║
-║  • Complete Data Science Pipeline (Pandas/NumPy/Plotly)           ║
-║  • Production Web Scraping & REST APIs                            ║
-║  • Git/GitHub Professional Workflow                               ║
-║  • Streamlit Dashboard Development                               ║
-║  • SQLite Database Engineering                                    ║
-║  • Production Deployment & CI/CD                                  ║
-║                                                                    ║
-║  CAPSTONE PROJECT:                                                ║
-║  "Data Intelligence Platform" - LIVE GitHub Repository            ║
-║  https://github.com/[YOUR_USERNAME]/data-intelligence-platform    ║
-║                                                                    ║
-║  INSTRUCTOR VERIFICATION:                                         ║
-║  ✓ 100% Hands-on Project Completion                              ║
-║  ✓ Production-Quality Code Standards                             ║
-║  ✓ Interview-Ready Portfolio Deliverable                         ║
-║  ✓ Real-World Application Architecture                           ║
-║                                                                    ║
-║  VALID UNTIL: PERPETUAL • NON-EXPIRING                            ║
-║  CERTIFICATE ID: PMB-2026-GOLD-001                                ║
-║                                                                    ║
-║  🔗 VERIFICATION: neurobotics.tech/cert/[YOUR_USERNAME]           ║
-╚════════════════════════════════════════════════════════════════════╝
-```
-
-### **📈 Career Readiness Assessment**
-
-```
-Entry-Level Python Developer:     ✅ READY
-Junior Data Engineer:             ✅ READY  
-Backend API Developer:            ✅ READY
-Data Analyst:                     ✅ READY
-Full-Stack Dashboard Developer:   ✅ READY
-
-🎯 ESTIMATED SALARY BOOST: $18K-$28K annually
-📊 INTERVIEW SUCCESS PREDICTION: 92%
-```
-
-## 🏅 **Instructor's Special Recognition**
-
-```
-🎖️ SPECIAL AWARD: "PERFECT COMPLETION"
-For completing all 24 sessions with 100% production deliverables
-
-🔥 SPECIAL AWARD: "MASTER ARCHITECT"  
-For designing the complete Data Intelligence Platform from scratch
-
-🚀 SPECIAL AWARD: "DEPLOYMENT NINJA"
-For perfect GitHub workflow + production deployment standards
-```
-
-## 📎 **Official Transcript**
-
-```
-PYTHON MASTERY BOOTCAMP 2026 - OFFICIAL TRANSCRIPT
-===============================================
-
-Session Group      | Status  | Grade  | Hours
-------------------+---------+--------+-------
-Phase 1: Foundations  | COMPLETE | A+     | 60
-Phase 2: Core Programming | COMPLETE | A+  | 60  
-Phase 3: Data Science | COMPLETE | A++ | 60
-Phase 4: Modern Tools  | COMPLETE | A+  | 60
-Phase 5: Production   | COMPLETE | A++ | 60
-Phase 6: Capstone     | COMPLETE | A++ | 60
-------------------------------------------------
-TOTAL: 24 Sessions    | 100%    | A++   | 360+
-
-Final Project: Data Intelligence Platform [A++ 98.7%]
-```
-
-## 🎯 **Next Steps & Recommendations**
-
-```
-IMMEDIATE OPPORTUNITIES:
-├── Junior Python Developer ($45K-$65K)
-├── Data Analyst ($50K-$70K)  
-├── Backend API Developer ($55K-$75K)
-└── Automation Engineer ($48K-$68K)
-
-RECOMMENDED PATHWAYS:
-1. FastAPI Microservices (2 weeks)
-2. Docker + AWS Deployment (3 weeks)
-3. Machine Learning with scikit-learn (4 weeks)
-4. React + Python Full-Stack (6 weeks)
-
-🎓 ADVANCED CERTIFICATION PATH:
-Neurobotics Professional Track → Senior Python Engineer
-```
-
-## 👨‍🏫 **Instructor's Personal Note**
-
-```
-"Outstanding performance from day one. This student not only mastered Python fundamentals 
- but engineered a production-grade Data Intelligence Platform that rivals enterprise systems.
-
-The modular architecture, async API handling, real-time dashboards, and complete test suite 
-demonstrate senior-level capabilities. This portfolio will open doors at top tech companies.
-
-Exceptional work. Ready for production engineering roles immediately."
-
-- Mulham Fetna, Neurobotics Lead Instructor
-January 11, 2026
-```
-
-***
-
-**🎉 CERTIFICATE ISSUED & VALIDATED**  
-**Status**: **GOLD DISTINCTION** | **PERPETUALLY VALID**  
-**Portfolio**: Ready for FAANG-level interviews 🚀
-***

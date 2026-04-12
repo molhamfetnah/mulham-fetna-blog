@@ -1,5 +1,5 @@
 [[main]]
-  name = "🏠 Home"
+  name = "Home"
   url = "/"
   weight = 1
 
@@ -34,7 +34,7 @@
   weight = 7
 
 [[main]]
-  name = "Posts"
+  name = "Updates"
   pageRef = "Social-Media-Posts"
   weight = 8
 
