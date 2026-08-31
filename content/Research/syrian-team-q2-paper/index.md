@@ -160,37 +160,34 @@ Next: what the material actually does, and why I read it as a control system.
 {{< accordion >}}
 {{< accordionItem title="Full author list — 26 researchers, 11 faculties, 2 universities" >}}
 
-| # | Researcher | Department | Faculty | University |
-| --- | --- | --- | --- | --- |
-| 1 | Abdulrazzaq Hammal | Basic Science — Chemistry | Electrical Engineering | Aleppo |
-| 2 | Hiba Al-Hamed Al-Duihib | Microbiology | Pharmacy | Hama |
-| 3 | Sara Shawwah | — | Human Medicine | Aleppo |
-| 4 | Adeela Kanawati | Biochemistry | Science | Aleppo |
-| 5 | Fathia Boudakah | Biotechnology Engineering | Technical Engineering | Aleppo |
-| 6 | Mohamad Khayat | Applied Chemistry | Science | Aleppo |
-| 7 | Adnan Masry | Mechanical Energy Engineering | Mechanical Engineering | Aleppo |
-| 8 | Asmaa Hamad | Environmental Engineering | Civil Engineering | Aleppo |
-| 9 | Malak Alsadr | Environmental Engineering | Civil Engineering | Aleppo |
-| 10 | Haifaa Ajam | Biotechnology Engineering | Technical Engineering | Aleppo |
-| 11 | Hasan Ibesh | — | Human Medicine | Aleppo |
-| 12 | Lana Kalaji | — | Pharmacy | Aleppo |
-| 13 | Leen Samara | — | Human Medicine | Aleppo |
-| 14 | Majed Almohamad | — | Agriculture | Aleppo |
-| 15 | Mohamad Manafikhi | — | Pharmacy | Aleppo |
-| 16 | Muhammad Kassir | — | Mechanical Engineering | Aleppo |
-| 17 | Sedra Olabi | Biotechnology Engineering | Technical Engineering | Aleppo |
-| 18 | Mohammad Moneer Salahieh | — | Mechanical Engineering | Aleppo |
-| 19 | Eman Mouselly | Applied Chemistry | Science | Aleppo |
-| 20 | Mais Markabi | — | Pharmacy | Aleppo |
-| 21 | Leen Almaha Hafez | Environmental Engineering | Technical Engineering | Aleppo |
-| 22 | Sana Karkar | — | Pharmacy | Aleppo |
-| 23 | Sedra Batal | — | Nursing | Aleppo |
-| 24 | Mulham Fetna | Mechatronics Engineering | Electrical and Electronic Engineering | Aleppo |
-| 25 | Bahia Sheikh Alkassabeen | Environmental Engineering | Technical Engineering | Aleppo |
-| 26 | Ola Alaa Hamad | Biotechnology Engineering | Technical Engineering | Aleppo |
-
-A dash in the Department column means no department is stated in the source — several faculties
-here are listed at faculty level only, for the whole team as well as for individuals.
+| # | Researcher | Department and Faculty | University |
+| --- | --- | --- | --- |
+| 1 | Abdulrazzaq Hammal | Dept. of Basic Science — Chemistry, Faculty of Electrical Engineering | Aleppo |
+| 2 | Hiba Al-Hamed Al-Duihib | Dept. of Microbiology, Faculty of Pharmacy | Hama |
+| 3 | Sara Shawwah | Faculty of Human Medicine | Aleppo |
+| 4 | Adeela Kanawati | Dept. of Biochemistry, Faculty of Science | Aleppo |
+| 5 | Fathia Boudakah | Dept. of Biotechnology Engineering, Faculty of Technical Engineering | Aleppo |
+| 6 | Mohamad Khayat | Dept. of Applied Chemistry, Faculty of Science | Aleppo |
+| 7 | Adnan Masry | Dept. of Mechanical Energy Engineering, Faculty of Mechanical Engineering | Aleppo |
+| 8 | Asmaa Hamad | Dept. of Environmental Engineering, Faculty of Civil Engineering | Aleppo |
+| 9 | Malak Alsadr | Dept. of Environmental Engineering, Faculty of Civil Engineering | Aleppo |
+| 10 | Haifaa Ajam | Dept. of Biotechnology Engineering, Faculty of Technical Engineering | Aleppo |
+| 11 | Hasan Ibesh | Faculty of Human Medicine | Aleppo |
+| 12 | Lana Kalaji | Faculty of Pharmacy | Aleppo |
+| 13 | Leen Samara | Faculty of Human Medicine | Aleppo |
+| 14 | Majed Almohamad | Faculty of Agriculture | Aleppo |
+| 15 | Mohamad Manafikhi | Faculty of Pharmacy | Aleppo |
+| 16 | Muhammad Kassir | Faculty of Mechanical Engineering | Aleppo |
+| 17 | Sedra Olabi | Dept. of Biotechnology Engineering, Faculty of Technical Engineering | Aleppo |
+| 18 | Mohammad Moneer Salahieh | Faculty of Mechanical Engineering | Aleppo |
+| 19 | Eman Mouselly | Dept. of Applied Chemistry, Faculty of Science | Aleppo |
+| 20 | Mais Markabi | Faculty of Pharmacy | Aleppo |
+| 21 | Leen Almaha Hafez | Dept. of Environmental Engineering, Faculty of Technical Engineering | Aleppo |
+| 22 | Sana Karkar | Faculty of Pharmacy | Aleppo |
+| 23 | Sedra Batal | Faculty of Nursing | Aleppo |
+| 24 | Mulham Fetna | Dept. of Mechatronics Engineering, Faculty of Electrical and Electronic Engineering | Aleppo |
+| 25 | Bahia Sheikh Alkassabeen | Dept. of Environmental Engineering, Faculty of Technical Engineering | Aleppo |
+| 26 | Ola Alaa Hamad | Dept. of Biotechnology Engineering, Faculty of Technical Engineering | Aleppo |
 
 Corresponding author: Abdulrazzaq Hammal. All authors are credited under Methodology in the
 paper's CRediT statement, with the corresponding author additionally credited for Investigation
