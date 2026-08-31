@@ -12,6 +12,16 @@
   pageRef = "about"
   weight = 1
 
+# Restored 2026-08-29. This lane was removed in 070c010 ("all three papers were
+# rejected") and weight 2 has been vacant since. It comes back with a published,
+# peer-reviewed paper behind it: Hammal et al., Hybrid Advances 13 (2026) 100657.
+# Open Source is deliberately NOT moved back under here — it now lives under
+# "Work With Me" and that placement is left alone.
+[[main]]
+  name = "Research"
+  pageRef = "Research"
+  weight = 2
+
 [[main]]
   name = "Learn"
   pageRef = "learn"
