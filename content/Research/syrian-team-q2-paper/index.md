@@ -189,6 +189,9 @@ Next: what the material actually does, and why I read it as a control system.
 | 25 | Bahia Sheikh Alkassabeen | Environmental Engineering | Technical Engineering | Aleppo |
 | 26 | Ola Alaa Hamad | Biotechnology Engineering | Technical Engineering | Aleppo |
 
+A dash in the Department column means no department is stated in the source — several faculties
+here are listed at faculty level only, for the whole team as well as for individuals.
+
 Corresponding author: Abdulrazzaq Hammal. All authors are credited under Methodology in the
 paper's CRediT statement, with the corresponding author additionally credited for Investigation
 and for writing the original draft and the review and editing.
